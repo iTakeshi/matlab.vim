@@ -1,5 +1,4 @@
 function neocomplete#matlab#gather_candidates(context)
-  echomsg expand('<amatch>')
   let s:function_dict = globpath(&runtimepath, 'dict/matlab/functions.dict', 1)
   let s:candidates = []
   for line_str in readfile(s:function_dict)
