@@ -271,8 +271,8 @@ del2	Discrete Laplacian
 delaunay	Delaunay triangulation
 delaunayn	N-D Delaunay triangulation
 delaunayTriangulation	Delaunay triangulation in 2-D and 3-D
-delete	Handle object destructor
 delete	Remove COM control or server
+delete	Handle object destructor
 delete	Remove files or objects
 delete	serial	Remove serial port object from memory
 deleteCol	Delete column from table
@@ -289,8 +289,8 @@ demo	Access product examples in Help browser
 depdir	List dependent folders for function or P-file
 depfun	List dependencies of function or P-file
 det	Matrix determinant
-detrend	Remove linear trends
 detrend	Subtract mean or best-fit line and all NaNsfrom timeseries object
+detrend	Remove linear trends
 deval	Evaluate solution of differential equation problem
 diag	Diagonal matrices and diagonals of matrix
 dialog	Create and display empty dialog box
@@ -298,9 +298,9 @@ diary	Save Command Window text to file
 diff	Differences and Approximate Derivatives
 diffuse	Calculate diffuse reflectance
 dir	List folder contents
-disp	Display text or array
-disp	memmapfile	Information about memory map
 disp	serial	Serial port object summary information
+disp	memmapfile	Information about memory map
+disp	Display text or array
 display	Display text and numeric expressions
 dither	Convert image, increasing apparent color resolution bydithering
 divergence	Compute divergence of vector field
@@ -351,8 +351,8 @@ event.listener	Class defining listener objects
 event.PropertyEvent	Data for property events
 event.proplistener	Define listener object for property events
 eventlisteners	List event handler functions associated with COM objectevents
-events	List of events COM object can trigger
 events	Event names
+events	List of events COM object can trigger
 Execute	Execute MATLAB command in Automation server
 exifread	Read EXIF information from JPEG and TIFF image files
 exist	Check existence of variable, function, folder, or class
@@ -379,8 +379,8 @@ fclose	serial	Disconnect serial port object from device
 feather	Plot velocity vectors
 feof	Test for end-of-file
 ferror	Information about file I/O errors
-Feval	Evaluate MATLAB function in Automation server
 feval	Evaluate function
+Feval	Evaluate MATLAB function in Automation server
 fft	Fast Fourier transform
 fft2	2-D fast Fourier transform
 fftn	N-D fast Fourier transform
@@ -388,8 +388,8 @@ fftshift	Shift zero-frequency component to center of spectrum
 fftw	Interface to FFTW library run-time algorithm tuning control
 fgetl	Read line from file, removing newline characters
 fgetl	serial	Read line of text from device and discard terminator
-fgets	Read line from file, keeping newline characters
 fgets	serial	Read line of text from device and include terminator
+fgets	Read line from file, keeping newline characters
 fieldnames	Field names of structure, or public fields of object
 figure	Create figure graphics object
 figurepalette	Show or hide Figure Palette
@@ -403,8 +403,8 @@ fileread	Read contents of file into string
 filesep	File separator for current platform
 fill	Filled 2-D polygons
 fill3	Filled 3-D polygons
-filter	Shape frequency content of time-series
 filter	1-D digital filter
+filter	Shape frequency content of time-series
 filter2	2-D digital filter
 find	Find indices and values of nonzero elements
 findall	Find all graphics objects
@@ -449,8 +449,8 @@ func2str	Construct function name string from function handle
 functions	Information about function handle
 functiontests	Create array of tests from handles to local functions
 funm	Evaluate general matrix function
-fwrite	Write data to binary file
 fwrite	serial	Write binary data to device
+fwrite	Write data to binary file
 fzero	Root of nonlinear function
 gallery	Test matrices
 gamma	Gamma function
@@ -467,13 +467,13 @@ ge	Determine greater than or equal to
 genpath	Generate path string
 genvarname	Construct valid variable name from string
 get	Query Handle Graphics object properties
-get	Query timeseries object property values
 get	Get propertyvalue from interface, or display properties
-get	memmapfile	Memory map properties
 get	serial	Serial port object properties
+get	memmapfile	Memory map properties
 get	tscollection	Query tscollection object propertyvalues
-getabstime	Extract date-string time vector into cell array
+get	Query timeseries object property values
 getabstime	tscollection	Extract date-string time vector into cell array
+getabstime	Extract date-string time vector into cell array
 getAColParms	ASCII table information
 getappdata	Value of application-defined data
 getBColParms	Binary table information
@@ -502,8 +502,8 @@ getpref	Preference
 getqualitydesc	Data quality descriptions
 getReport	MException	Get error message for exception
 getsamples	Subset of time series samples using subscripted indexarray
-getsampleusingtime	Extract data samples into new timeseries object
 getsampleusingtime	tscollection	Extract data samples into new tscollection object
+getsampleusingtime	Extract data samples into new timeseries object
 gettimeseriesnames	Cell array of names of timeseries objectsin tscollection object
 gettsafteratevent	New timeseries object with samplesoccurring at or after event
 gettsafterevent	New timeseries object with samplesoccurring after event
@@ -866,12 +866,11 @@ hist	Histogram plot
 histc	Histogram bin count
 hold	Retain current graph when adding new graphs
 home	Send cursor home
-horzcat	Concatenate arrays horizontally
 horzcat	tscollection	Horizontal concatenation for tscollection objects
+horzcat	Concatenate arrays horizontally
 hsv2rgb	Convert HSV colormap to RGB colormap
 hypot	Square root of sum of squares
 ichol	Incomplete Cholesky factorization
-ichol 	Incomplete Cholesky factorization
 idealfilter	Apply ideal (noncausal) filter to timeseries object
 idivide	Integer division with rounding option
 ifft	Inverse fast Fourier transform
@@ -966,8 +965,8 @@ islogical	Determine if input is logical array
 ismac	Determine if version is for Mac OS X platform
 ismatrix	Determine whether inputis matrix
 ismember	Array elements that are members of set array
-ismethod	Determine if method of object
 ismethod	Determine whether input is COM object method
+ismethod	Determine if method of object
 ismissing	Find table elements with missing values
 isnan	Array elements that are NaN
 isnumeric	Determine if input is numeric array
@@ -980,8 +979,8 @@ isosurface	Extract isosurface data from volume data
 ispc	Determine if version is for Windows (PC) platform
 ispref	Test for existence of preference
 isprime	Determine which array elements are prime
-isprop	Determine whether input is COM object property
 isprop	Determine if property of object
+isprop	Determine whether input is COM object property
 isprotected	Determine whether categories of categorical array areprotected
 isreal	Check if input is real array
 isrow	Determine whether inputis row vector
@@ -996,8 +995,8 @@ isstudent	Determine if version is Student Version
 istable	Determine whether input is table
 isundefined	Find undefined elements in categorical array
 isunix	Determine if version is for UNIX platform
-isvalid	Is object valid handle class object
 isvalid	serial	Determine whether serial port objects are valid
+isvalid	Is object valid handle class object
 isvarname	Determine whether input is valid variable name
 isvector	Determine whether input is vector
 javaaddpath	Add entries to dynamic Java class path
@@ -1044,9 +1043,9 @@ linsolve	Solve linear system of equations
 linspace	Generate linearly spaced vectors
 listdlg	Create and open list-selection dialog box
 listfonts	List available system fonts
-load	Initialize control object from file
-load	Load variables from file into workspace
 load	serial	Load serial port objects and variables into MATLAB workspace
+load	Load variables from file into workspace
+load	Initialize control object from file
 loadlibrary	Load shared library into MATLAB
 loadobj	Modify load process for object
 localfunctions	Function handles to all local functions in MATLAB file
@@ -1072,7 +1071,8 @@ mat2cell	Convert array to cell array with potentially differentsized cells
 mat2str	Convert matrix to string
 material	Control reflectance properties of surfaces and patches
 matfile	Access and change variables directly in MAT-files, withoutloading into memory
-matlab	Start MATLAB program
+matlab	UNIX	Start MATLAB program (UNIX platforms)
+matlab	Windows	Start MATLAB program (Windows platforms)
 matlab.apputil.create	Create or modify app project file for packaging app into .mlappinstall fileusing interactive dialog box
 matlab.apputil.getInstalledAppInfo	List installed app information
 matlab.apputil.install	Install app from a .mlappinstall file
@@ -1095,11 +1095,11 @@ matlab.unittest.TestSuite	Class for grouping tests to run
 matlab.unittest.TestSuite.run	Run TestSuite array using TestRunner objectconfigured for text output
 matlabrc	Startup file for MATLAB program
 matlabroot	Root folder
-max	Maximum value of timeseries data
 max	Largest elements in array
+max	Maximum value of timeseries data
 MaximizeCommandWindow	Open Automation server window
-mean	Average or mean value of array
 mean	Mean value of timeseries data
+mean	Average or mean value of array
 median	Median value of timeseries data
 median	Median value of array
 memmapfile	Create memory map to a file
@@ -1261,8 +1261,8 @@ pie	Pie chart
 pie3	3-D pie chart
 pinv	Moore-Penrose pseudoinverse of matrix
 planerot	Givens plane rotation
-plot	2-D line plot
 plot	Plot time series
+plot	2-D line plot
 plot3	3-D line plot
 plotbrowser	Show or hide figure Plot Browser
 plotedit	Interactively edit and annotate plots
@@ -1293,8 +1293,8 @@ printpreview	Preview figure to print
 prod	Product of array elements
 profile	Profile execution time for function
 profsave	Save profile report in HTML format
-propedit	Open Property Editor
 propedit	Open built-in property page for control
+propedit	Open Property Editor
 properties	Class property names
 propertyeditor	Show or hide Property Editor
 psi	Psi (polygamma) function
@@ -1311,8 +1311,8 @@ qrupdate	Rank 1 update to QR factorization
 quad2d	Numerically evaluate double integral, tiled method
 quadgk	Numerically evaluate integral, adaptive Gauss-Kronrodquadrature
 questdlg	Create and open question dialog box
-quit	Terminate MATLAB program
 Quit	Terminate MATLAB Automation server
+quit	Terminate MATLAB program
 quiver	Quiver or velocity plot
 quiver3	3-D quiver or velocity plot
 qz	QZ factorization for generalized eigenvalues
@@ -1401,9 +1401,9 @@ rref	Reduced row echelon form
 rsf2csf	Convert real Schur form to complex Schur form
 run	Run MATLAB script
 runtests	Run set of tests
-save	Serialize control object to file
 save	Save workspace variables to file
 save	serial	Save serial port objects and variables to file
+save	Serialize control object to file
 saveas	Save figure or Simulink block diagram usingspecified format
 savefig	Save figure to FIG-file
 saveobj	Modify save process for object
@@ -1422,12 +1422,12 @@ sendmail	Send email message to address list
 serial	Create serial port object
 serialbreak	Send break to device connected to serial port
 set	Set Handle Graphics object properties
-set	Set objector interface property to specified value
 set	Set properties of timeseries object
 set	serial	Configure or display serial port object properties
+set	Set objector interface property to specified value
 set	tscollection	Set properties of tscollection object
-setabstime	Set times of timeseries object as datestrings
 setabstime	tscollection	Set times of tscollection object asdate strings
+setabstime	Set times of timeseries object as datestrings
 setappdata	Specify application-defined data
 setBscale	Reset image scaling
 setCompressionType	Set image compression type
@@ -1531,8 +1531,8 @@ subspace	Angle between two subspaces
 subsref	Redefine subscripted reference for objects
 substruct	Create structure argument for subsasgn or subsref
 subvolume	Extract subset of volume data set
-sum	Sum of timeseries data
 sum	Sum of array elements
+sum	Sum of timeseries data
 summary	Print summary of table or categorical array
 superclasses	Superclass names
 surf	3-D shaded surface plot
@@ -1649,8 +1649,8 @@ validateattributes	Check validity of array
 validatestring	Check validity of text string
 values	Identify values in containers.Map object
 vander	Vandermonde matrix
-var	Variance of timeseries data
 var	Variance
+var	Variance of timeseries data
 varargin	Variable-length input argument list
 varargout	Variable-length output argument list
 varfun	Apply function to table variables
@@ -1659,8 +1659,8 @@ ver	Version information for MathWorks products
 verctrl	Source control actions (Windows platforms)
 verLessThan	Compare toolbox version to specified version string
 version	Version number for MATLAB and libraries
-vertcat	Concatenate arrays vertically
 vertcat	tscollection	Vertical concatenation for tscollection objects
+vertcat	Concatenate arrays vertically
 VideoReader	Read video files
 VideoWriter	Write video files
 view	Viewpoint specification
