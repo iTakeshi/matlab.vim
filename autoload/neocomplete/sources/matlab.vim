@@ -10,7 +10,7 @@ function! s:source.hooks.on_init(context)
 endfunction
 
 function! s:source.gather_candidates(context)
-  return neocomplete#matlab#gather_candidates(a:context.complete_str)
+  return neco_matlab#gather_candidates(a:context.complete_str)
 endfunction
 
 function! neocomplete#sources#matlab#define()
