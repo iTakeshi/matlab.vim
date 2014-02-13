@@ -20,7 +20,7 @@ end
 arr << ['rat', 'Rational fraction approximation']
 arr << ['rats', 'Rational fraction approximation']
 
-exclusions = ['break', 'colon', 'continue', 'end', 'false', 'for', 'function', 'function_handle', 'i', 'if/elseif/else', 'Inf', 'is*', 'j', 'LogicalOperators: Elementwise', 'LogicalOperators: Short-circuit', 'NaN', 'parfor', 'pause', 'pi', 'rat, rats', 'RelationalOperators', 'return', 'Special Characters', 'switch/case/otherwise', 'true', 'try/catch', 'while']
+exclusions = ['break', 'colon', 'continue', 'end', 'false', 'for', 'function', 'function_handle', 'i', 'if/elseif/else', 'is*', 'j', 'LogicalOperators: Elementwise', 'LogicalOperators: Short-circuit', 'parfor', 'pause', 'pi', 'rat, rats', 'RelationalOperators', 'return', 'Special Characters', 'switch/case/otherwise', 'true', 'try/catch', 'while']
 File.open('functions.dict', 'w') do |f|
   arr.uniq.sort_by{ |item| item[0].downcase }.each do |item|
     f.puts item.join("\t") unless exclusions.include?(item[0])

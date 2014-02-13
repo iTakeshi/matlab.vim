@@ -893,6 +893,7 @@ imread	Read image from graphics file
 imwrite	Write image to graphics file
 ind2rgb	Convert indexed image to RGB image
 ind2sub	Subscripts from linear index
+Inf	Infinity
 inmem	Names of functions, MEX-files, classes in memory
 innerjoin	Inner join between two tables
 inpolygon	Points inside polygonal region
@@ -1158,6 +1159,7 @@ mu2lin	Convert mu-law audio signal to linear
 multibandread	Read band-interleaved data from binary file
 multibandwrite	Write band-interleaved data to file
 namelengthmax	Maximum identifier length
+NaN	Not-a-Number
 nargin	Number of function input arguments
 narginchk	Validate number of input arguments
 nargout	Number of function output arguments
