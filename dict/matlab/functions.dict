@@ -158,7 +158,6 @@ circshift	Shift array circularly
 cla	Clear current axes
 clabel	Contour plot elevation labels
 class	Determine class of object
-classdef	Class definition keywords
 clc	Clear Command Window
 clear	Remove items from workspace, freeing up system memory
 clear	serial	Remove serial port object from MATLAB workspace
@@ -328,7 +327,6 @@ empty	Create empty array
 enableNETfromNetworkDrive	Enable access to .NET commands from network drive
 enableservice	Enable, disable, or report status of MATLAB Automationserver
 EndInvoke	Retrieve result of asynchronous call initiated by .NETSystem.Delegate BeginInvoke method
-enumeration	Display class enumeration members and names
 eomday	Last day of month
 eps	Floating-point relative accuracy
 eq	Determine equality
@@ -351,7 +349,6 @@ event.listener	Class defining listener objects
 event.PropertyEvent	Data for property events
 event.proplistener	Define listener object for property events
 eventlisteners	List event handler functions associated with COM objectevents
-events	Event names
 events	List of events COM object can trigger
 Execute	Execute MATLAB command in Automation server
 exifread	Read EXIF information from JPEG and TIFF image files
@@ -1123,7 +1120,6 @@ meta.package.fromName	Return meta.package object for specifiedpackage
 meta.package.getAllPackages	Get all top-level packages
 meta.property	meta.property class describes MATLAB classproperties
 metaclass	Obtain meta.class object
-methods	Class method names
 methodsview	View class methods
 mex	Build MEX-function from C/C++ or Fortran source code
 mex.getCompilerConfigurations	Get compiler configuration information for building MEX-files
@@ -1297,7 +1293,6 @@ profile	Profile execution time for function
 profsave	Save profile report in HTML format
 propedit	Open built-in property page for control
 propedit	Open Property Editor
-properties	Class property names
 propertyeditor	Show or hide Property Editor
 psi	Psi (polygamma) function
 publish	Generate view of MATLAB file in specified format
